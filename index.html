@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minsoo Kim - Data Science at UC Berkeley</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="nav-name">Minsoo Kim</h1>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Minsoo Kim</h1>
+                <p class="tagline">Data Science Student at UC Berkeley</p>
+                <p class="hero-description">
+                    Aspiring data scientist and machine learning engineer passionate about turning messy real-world data into actionable insights and practical systems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm a Data Science major at the University of California, Berkeley, expected to graduate in May 2026.
+                            My journey in data science combines rigorous academic training with hands-on experience in machine learning,
+                            data analysis, and building practical systems.
+                        </p>
+                        <p>
+                            I enjoy working with large datasets, developing predictive models, and using data-driven approaches
+                            to solve real-world problems. My experience spans LLM fine-tuning, RAG workflows, predictive modeling,
+                            classification systems, and market research.
+                        </p>
+                        <p>
+                            Beyond technical work, I'm committed to leadership and community building. As Vice President of Kojobs
+                            at UC Berkeley, I help students develop career skills through mentorship and networking opportunities.
+                        </p>
+                        <p>
+                            When I'm not analyzing data, you can find me weight training, playing badminton, exploring new cultures
+                            through travel, or capturing moments with photography.
+                        </p>
+                    </div>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <h3>Education</h3>
+                            <p>University of California, Berkeley</p>
+                            <p>Bachelor of Arts in Data Science</p>
+                            <p>Expected Graduation: May 2026</p>
+                        </div>
+                        <div class="detail-item">
+                            <h3>Key Coursework</h3>
+                            <ul>
+                                <li>Data Structures</li>
+                                <li>Data Mining and Analytics</li>
+                                <li>Principles & Techniques of Data Science</li>
+                                <li>Computational Models of Cognition</li>
+                                <li>Computational Structures in Data Science</li>
+                                <li>Foundations of Data Science</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="experience-grid">
+                    <div class="experience-item">
+                        <h3>Data Analyst Intern</h3>
+                        <h4>Interlinked Corp</h4>
+                        <p class="experience-meta">Berkeley, US | June 2025 – Present</p>
+                        <ul>
+                            <li>Fine-tuned Llama-3.1-8B with LoRA on fire incident datasets, improving evaluation accuracy by 18% on benchmark tasks</li>
+                            <li>Built and validated a decision tree pipeline for incident classification, reducing false positives by 22% from baseline</li>
+                            <li>Implemented RAG workflows with synthetic knowledge bases, boosting query relevance by 15% and improving response speed</li>
+                            <li>Automated evaluation scripts, reducing testing time from 40 minutes to under 10 minutes</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Market Data Research Intern</h3>
+                        <h4>Dolce Pet</h4>
+                        <p class="experience-meta">Seoul, South Korea | September 2024 – Present</p>
+                        <ul>
+                            <li>Led U.S. market research to support global expansion, analyzing 5K+ industry and consumer records</li>
+                            <li>Identified 3 key growth opportunities from public datasets and built structured analytical reports</li>
+                            <li>Improved branding and product decisions by 20% through data-driven insights</li>
+                            <li>Collaborated with marketing and content teams to localize promotions and identify 5+ new distribution channels</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Vice President</h3>
+                        <h4>Kojobs</h4>
+                        <p class="experience-meta">UC Berkeley | August 2024 – December 2025</p>
+                        <ul>
+                            <li>Coordinated peer mentorship programs on job search skills, helping 50+ students with resume reviews and interview preparation</li>
+                            <li>Organized company tabling events with Peak Up and The Zone Bio, hosting 5 industry professionals for guest talks</li>
+                            <li>Helped students gain practical career exposure through networking and professional development opportunities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Procedural World Generator</h3>
+                        <p class="project-tech">Java</p>
+                        <p>Built a procedurally generated tile-based world using seed-based determinism and real-time avatar controls. Designed a modular game engine supporting dynamic lighting, HUD, save/load, and extended gameplay features. Achieved 100% checkoff completion with no performance loss.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Predicting Housing Prices (Cook County)</h3>
+                        <p class="project-tech">Python, scikit-learn</p>
+                        <p>Developed linear regression models using 200K+ property records, reaching R² = 0.79 on validation set and reducing RMSE by 19.3%. Applied log transforms, feature engineering, and neighborhood-based encoding with fairness analysis across income brackets.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Spam vs. Ham Email Classifier</h3>
+                        <p class="project-tech">Python, scikit-learn</p>
+                        <p>Trained a logistic regression model on 8,348 labeled emails, achieving 91.6% validation accuracy. Built binary feature matrix with token indicators, improved memory use by 40%, and optimized F1 score using ROC analysis.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>WordNet Hyponym Explorer</h3>
+                        <p class="project-tech">Java</p>
+                        <p>Built a scalable directed graph system mapping 80,000+ synsets and 100,000+ hyponyms, reducing average query time by 71%. Used transitive closure precomputation, optimized traversal, and efficient indexing with GUI integration.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Sleep Research & Data Publishing</h3>
+                        <p class="project-tech">Python, pandas, matplotlib</p>
+                        <p>Surveyed 34 Korean UC Berkeley students, finding average sleep quality dropped from 7.3 to 5.2 during exams with 29% increase in late-night sleeping. Published results in magazine format and shared through campus networks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-content">
+                    <div class="skills-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">HTML</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Data Science & Tools</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">scikit-learn</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">Excel</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Core Competencies</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Data Structures & Algorithms</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Data Analysis</span>
+                            <span class="skill-tag">Statistical Modeling</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Languages</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Korean (Native)</span>
+                            <span class="skill-tag">English (Fluent)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-content">
+                    <p>I'm always interested in new opportunities and collaborations in data science and machine learning.</p>
+                    <div class="contact-links">
+                        <a href="https://github.com/minsmans" class="contact-link">GitHub</a>
+                        <a href="https://linkedin.com/in/yourprofile" class="contact-link">LinkedIn</a>
+                        <a href="mailto:your.email@berkeley.edu" class="contact-link">Email</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Minsoo Kim. Built with GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
